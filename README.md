@@ -1,5 +1,6 @@
 # bme280_http_server
 http server communicating with udp esp32 device with bme280 sensor.
+Runs on port 5000.
 
 # Requirements
 
