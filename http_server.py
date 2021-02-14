@@ -39,5 +39,5 @@ if __name__ == "__main__":
     args = get_parser().parse_args()
     esp32ip = args.ip_address
     esp32port = args.p
-    app.run(host='127.0.0.1', port='3333')
+    app.run(host='127.0.0.1', port='5000')
 
