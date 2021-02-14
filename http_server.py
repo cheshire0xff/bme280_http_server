@@ -1,5 +1,6 @@
 import os
 import argparse
+import ipaddress
 
 from flask import Flask
 from flask import Response
@@ -27,6 +28,7 @@ def get_parser():
     parser = argparse.ArgumentParser(
         description='http server.')
     parser.add_argument('ip_address',
+        type=ipaddress.ip_address,
         help="provide esp32 device ip")
     parser.add_argument('-p', '-port',
         help="provide esp32 device udp port",
