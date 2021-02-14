@@ -12,7 +12,6 @@ esp32port = 3333
 
 @app.route('/')
 def index():
-    print('got it')
     return app.send_static_file("index.html")
 
 @app.route('/esp_command/<string:command>')
