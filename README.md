@@ -11,10 +11,11 @@ pip3 install flask
 
 # Usage
 
-Run server:
+To run the server you have to provide esp32 device IP:
 ```
 python3 http_server.py 192.168.1.104
 ```
+
 Show options:
 ```
 python3 http_server.py -h
